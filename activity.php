@@ -7,7 +7,7 @@ if (count($argv)<3) {
 	exit(1);
 }
 
-$login=$argv[1];
+$login=strtolower($argv[1]);
 
 for($i=2;$i<count($argv);$i++) {
 	if (file_exists($argv[2])) {
