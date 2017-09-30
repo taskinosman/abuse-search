@@ -1,11 +1,11 @@
-# Searching the logs
+## Searching the logs
 
-php search <searchString> <files_to_search>
+Usage: php search <searchString> <files_to_search>
 
 php search playstation *.json
 
 
-# Looking actions from specific user
-php activity.php <login>
+## Looking actions from specific user
+Usage: php activity.php <login>
 
 php activity.php john@doe.com
